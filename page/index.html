@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>peasonal resume</title>
+    <link rel="stylesheet" href="./static/css/resume.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="img-header">
+                <div class="content">
+                    <p><strong>一 直 在 进 步 的 路 上</strong></p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="information-all">
+                <div class="col-6-asb">
+                    <div class="col-3 peasonal">
+                        <img class="peasonal-image" src="./static/image/person.jpg" alt="">
+                    </div>
+                    <div class="col-9 item">
+                        <p class="title name">
+                            赵世元
+                        </p>
+                        <div class="col-6">
+                            <p class="phone">15716888392</p>
+                            <p class="education">石家庄铁道大学 | 本科</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="email">1927006283@qq.com</p>
+                            <p class="profession">软件工程</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6-asb">
+                    <div class="col-6 ensprience">
+                        <div class="item">
+                            <p class="title">
+                                关于我
+                            </p>
+                            <ul>
+                                <li>多个视觉项目开发经验，web及Android前后端开发</li>
+                                <li>发展方向：CV算法研究员</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 skill">
+                        <div class="item">
+                            <p class="title">
+                                熟练语言
+                            </p>
+                            <div class="lang">
+                                <lable>LINUX</lable>
+                                <lable>PYTHON</lable>
+                                <lable>JAVA</lable>
+                                <lable>HTML</lable>
+                                <lable>TENSORFLOW</lable>
+                                <lable>KERAS</lable>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div class="title project">
+                    <p>项目经验</p>
+                </div>
+                <div class="project-detail">
+                    <div class="col-3-abs" id="project-0">
+                        <div class="project-content"> <img src="./static/image/gis.png" alt="">
+                            <p class="project-title">遥感影像图斑提取系统</p>
+                            <p class="create-time">2021.4 - 2021.7</p>
+                            <p class="decription"> 该作品使用PyQt5作为GUI库，并使用opencv来做超分辨率遥感影像的预处理（拆分、合并、数据增强、rgb与hsv的转化等）。
+                            	使用FPN-MHA作为语义分割算法，GID作为预训练数据集进行模型训练，输出遥感图像土地的15种门类
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3-abs" id="project-1">
+                        <div class="project-content"> <img src="./static/image/knowledge.png" alt="">
+                            <p class="project-title">知识圈APP</p>
+                            <p class="create-time">2020.4 - 2020.6</p>
+                            <p class="decription">该APP是一个知识共享类APP，提供了文章、学习、私信、个人信息等模块，支持文章发布及分类浏览，设置对应知识圈子，记录个人学习记录，
+                            	生成个人知识体系图，同时支持私信功能方便交流。团队博客地址：<a href="https://www.cnblogs.com/loho-team">洛杉矶湖人队</a></p>
+                        </div>
+                    </div>
+                    <div class="col-3-abs endline" id="project-2">
+                        <div class="project-content"> <img src="./static/image/sizheng.png" alt="">
+                            <p class="project-title">数学类课程思政网</p>
+                            <p class="create-time">2020.9 - 2020.10</p>
+                            <p class="decription"> 该作品使用了MVC设计模式，mysql数据库，jquery ajax的技术上制作的一个思政教学网站，除了前台展示界面，还
+                            提供了一个后台管理系统用于对教学信息的增删改查，同时支持视频和图片的上传。项目网址：<a href="http://stdu.edu.mpe.icu" target="_blank">数学类课程思政网</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title work">
+                    <p>学习情况</p>
+                </div>
+                <div class="w-experience-detail">
+                    <div class="item w-experience-content">
+                        <div class="logo">
+                            <img class="company-logo" src="./static/image/LOGO4.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <p class="create-time">2021.01 - 至今</p>
+                            <p class="job">计算机视觉 | 视觉Transformer论文复现与算法学习</p>
+                            <ul>
+                                <li>Cell-DETR——基于Transformer的细胞实例分割网络（用于生物医学应用中检测和分割细胞对象实例的任务）</li>
+                                <li>DeiT——通过注意力来训练数据和蒸馏的高效图像transformer（无卷积Transformer，性能优于Resnet、ViT等的新型算法）</li>
+                                <li>SETR——基于transformer的语义分割（刚提出时ADE20K上排名第一）</li>
+                                <li>TRIQ——用于图像质量评估的Transformer（用于图像质量数据库中的质量评估任务）</li>
+                                <li>BoTNet——基于Transformer的新backbone（应用于目标检测、实例分割等下有任务可有显著涨点）</li>
+                                <li>VST——视觉显著性transformer（用于显著性目标检测任务，使用新的token上采样方法获取高分辨率检测结果，并利用transformer在patches之间传播全局上下文信息）</li>
+                                <li>LV-ViT——用于探索视觉transformer潜力的新的训练技术（引入token labeling并微调视觉transformer实现低参数量级的同时具备高效性）</li>
+                                <li>Swin Transformer——层次化视觉transformer，刷爆各大CV任务，目标检测、实例分割、语义分割任务均刷到第一（可以作为视觉任务的通用backbone）</li>
+                            </ul>
+                            <p class="key-word">Transformer模型在自然语言任务方面的惊人结果近期吸引了视觉界研究其在CV问题中的应用，从而导致了许多任务中激动人心的进展，随着对transformer的深入研究，
+                            	一系列优秀的算法也开始屠榜CV任务，transformer在CV领域表现出来的强大性能深深吸引了我，也促使我开始对视觉transformer算法进行了更加深入的了解，深刻认识到了transformer编解码器
+                            	以及注意力机制在模拟人类视觉上的高效，通过长时间的学习，我对视觉领域的许多任务解决方案也有了更深入的认识与了解，更重要的是拓展了自己的眼界。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item w-experience-content">
+                        <div class="logo">
+                            <img class="company-logo" src="./static/image/LOGO4.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <p class="create-time">2020.07 - 2021.01</p>
+                            <p class="job">计算机视觉 | GAN网络及其变种</p>
+                            <ul>
+                                <li>经典GAN网络在mnist数据集生成任务的复现（GAN，cGAN，sGAN，cycleGAN，pix2pix）；</li>
+                                <li>新型GAN网络任务复现：</li>
+                                <li>1）SRResCGAN——用于真实世界超分辨率的深度生成对抗残差卷积网络（实现低分辨率图像输入到高分辨率图像输出的映射）</li>
+                                <li>2）InterFaceGAN——人脸吸引力增强网络（对相应的恢复潜在矢量进行美感语义编辑操作，实现人脸图像美化）</li>
+                                <li>3）DiffAugment——数据增强型GAN训练的可微增广（辅助提高现有GAN网络的性能，使用少量图像即可生成高保真图像）</li>
+                                <li>4）iSeeBetter——一种基于GAN的时空视频超分辨率方法（用于呈现时序上一致的超分辨率视频）</li>
+                                <li>5）CUIT——非配对的图像到图像转换的对比学习（实现在图像到图像转换中最大化输出patch域和输入patch域的交互信息）</li>
+                                <li>6）DSMAP——生成对抗式风格迁移的特定域映射（实现内容图像到风格图像的图像转换）</li>
+                            </ul>
+                            <p class="key-word">最初接触GAN是由于对肝脏图像进行处理时数据集太少需要对数据进行扩充，而在真正接触到GAN网络之后，为其博弈对抗的思想深深震撼。GAN网络不仅仅
+                            	是在数据增强领域有所建树，它在许多的娱乐方面的应用也着实吸引了我，比如风格迁移、3D人脸重建、妆容迁移、高分复杂场景合成等，这些应用尤其在当前短视频盛行的
+                            	时代更加受人欢迎。同时GAN网络也为其他无监督训练的任务提供的新的思想，在我接触到的多个项目中，就应用到GAN的对抗博弈思想作为网络预训练的方式，取得了不错的效果。</p>
+                        </div>
+                    </div>
+                    <div class="item w-experience-content">
+                        <div class="logo">
+                            <img class="company-logo" src="./static/image/LOGO4.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <p class="create-time">2020.01 - 2020.07</p>
+                            <p class="job">计算机视觉 | 深度学习经典网络以及U-net及其变种</p>
+                            <ul>
+                                <li>CNN：理解并复现了经典CNN网络的搭建（VGG，AlexNet，GoogleNet，Resnet，SEnet）；</li>
+                                <li>RNN：使用RNN完成了情感分类任务；</li>
+                                <li>DQN：在flappy bird游戏环境中应用了DQN做游戏AI；</li>
+                                <li>使用U-net及其变种进行了更高精度的肝脏数据集语义分割任务（U-net，U-net++，RU-net）；</li>
+                            </ul>
+							<br />
+                            <p class="job">手机应用开发 | Android应用开发（JAVA）</p>
+                            <ul>
+                                <li>使用java语言开发了多个Android离线小应用（手机计算器，房贷计算器，家庭记账本）；</li>
+                                <li>学会了线程、缓存在Android中的使用，并将其应用于实际项目（知识圈——一个知识共享APP）；</li>
+                            </ul>
+                            <br />
+                            <p class="job">web应用开发 | 数据可视化</p>
+                            <ul>
+                                <li>使用python爬取世界疫情数据，并使用web echarts进行数据可视化；</li>
+                            </ul>
+                            <p class="key-word">这一学年重点学习了传统的深度学习算法，对整个深度学习领域有个更加全面的认识。同时也着手进行了若干个移动端APP的开发，
+                            	体会到了一个真正接触到用户，有用户使用的APP应该是怎样的，通过对这一类APP的设计和编码，更加体会到了软件工程的博大精深。同时本学年的学习
+                            	也为将深度学习与手机APP的结合奠定了基础。</p>
+                        </div>
+                    </div>
+                    <div class="item w-experience-content">
+                        <div class="logo">
+                            <img class="company-logo" src="./static/image/LOGO4.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <p class="create-time">2019.07 - 2020.01</p>
+                            <p class="job">计算机视觉 | tensorflow框架；多种语义分割神经网络</p>
+                            <ul>
+                                <li>对深度学习的概念、发展、任务以及有了一个基本认识；</li>
+                                <li>简要了解了机器学习的经典算法；</li>
+                                <li>使用tensorflow + keras构建了第一个全连接神经网络和卷积神经网络，并完成了在mnist和cifar10上的简单分类任务；</li>
+                                <li>使用全卷积神经网络FCN完成了在ADE20K数据集上的第一次语义分割；</li>
+                                <li>学习了深度置信网络DBN，了解了RBM在DBN中的重要作用，并在ADE20K上与FCN做了比较；</li>
+                                <li>完成了对医学肝脏数据集的收集整理，并使用DBN和FCN完成了在该数据集上的语义分割任务；</li>
+                            </ul>
+                            <br />
+                            <p class="job">web应用开发 | JSP+SERVLET+JAVABEAN</p>
+                            <ul>
+                                <li>使用基本的基于javaweb的MVC设计模式完成了第一个有完整前后端的学生信息管理系统；</li>
+                                <li>基于javaweb实现了一个具有复杂业务流程、多用户角色参与的公文流转信息系统；</li>
+                            </ul>
+                            <p class="key-word">相比于大一学年感觉自身有了很大提高，接了人生第一个深度学习方向的项目（医学影像分割），并且在项目中正式入门了计算机视觉领域，从此
+                            	对CV领域的算法和最新工作具有了浓厚的兴趣以及探索热情；除此之外，在web方向也有了很大提高，第一次接触到服务器和数据库，正式体会到了一个完整MIS系统的设计思想
+                            	应该是怎样的，在亲手从设计到编码完成系统设计后，收获了满满的成就感，为以后的软件设计开发奠定了基础。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item w-experience-content">
+                        <div class="logo">
+                            <img class="company-logo" src="./static/image/LOGO4.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <p class="create-time">2019.01 - 2019.07</p>
+                            <p class="job">编程语言 | C++、java以及html+css+javascript（jquery）</p>
+                            <ul>
+                                <li>使用C++语法代替C语言完成数据结构算法设计；</li>
+                                <li>使用java完成面向对象以及简单窗口程序设计，初次能在程序中引入多线程；</li>
+                                <li>完成前端语言的学习，并使用其完成基本web页面的设计（实战案例：电商系统页面设计、多种页面控件的动态效果）；</li>
+                            </ul>
+                            <p class="key-word">在经历了长达半年的命令行程序交互之后，首次体验到了一个正式的、可以包含多种多媒体元素、具有多种动态效果以及交互功能的页面设计，更加激发了对于计算机行业的热情与兴趣。</p>
+                        </div>
+                    </div>
+                    <div class="item w-experience-content">
+                        <div class="logo">
+                            <img class="company-logo" src="./static/image/LOGO4.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <p class="create-time">2018.09 - 2019.01</p>
+                            <p class="job">编程语言 | C语言及C#语言</p>
+                            <ul>
+                                <li>用C语言实现简单的程序设计以及基础数据结构与算法的编写；</li>
+                                <li>使用C#语言完成简单的windows窗体程序设计并实现完整交互；</li>
+                            </ul>
+                            <p class="key-word">对程序设计语言以及面向对象的设计思想有了初步认识，正式迈开了学习编程的第一步。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <div class="title about-me">
+                    <p>联系我</p>
+                </div>
+                <div class="peasonal-message">
+                    <img class="peasonal-image" src="./static/image/person.jpg" alt="">
+                    <div class="item">
+                        <p class="name">赵世元</p>
+                        <p class="phone">15716888392</p>
+                        <p class="email">1927006283@qq.com</p>
+                    </div>
+                    <div class="item contact">
+                        <div class="col-3 qrcode">
+                            <img class="qr-image" src="./static/image/QRCode.png" alt="">
+                        </div>
+                        <div class="col-9">
+                            <p>了解更多的我</p>
+                            <div class="icon-container">
+                                <a href="#" class="icon">
+                                    <img src="./static/image/giteeICON.png" alt="">
+                                </a>
+                                <a href="#" class="icon">
+                                    <img src="./static/image/zhihuICON.png" alt="">
+                                </a>
+                                <a href="#" class="icon">
+                                    <img src="./static/image/weiboICON.png" alt="">
+                                </a>
+                                <a href="#" class="icon">
+                                    <img src="./static/image/oscICON.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <p class="footer">© Gitee.com</p>
+        </footer>
+    </div>
+</body>
+
+</html>
